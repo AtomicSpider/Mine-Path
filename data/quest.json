@@ -1,0 +1,852 @@
+[
+    {
+        "id": "4f7ed9e0-feca-4fa1-b4d9-e2c443ebb182",
+        "title": "Punch a tree and collect logs",
+        "how_to_complete": "- Approach a tree and hold the attack button to break log blocks.\n- Collect dropped logs.",
+        "why_it_matters": "- Logs craft into planks and sticks. They are the base material for early tools and shelter.",
+        "tags": [
+            "gathering",
+            "early-game"
+        ]
+    },
+    {
+        "id": "d0d85097-188d-46ea-a7f4-1c6a31e831d4",
+        "title": "Craft a crafting table",
+        "how_to_complete": "- Convert logs to wooden planks in inventory.\n- Place 4 planks in a 2x2 grid to make a crafting table.",
+        "why_it_matters": "- Unlocks 3x3 crafting recipes required for nearly all items.",
+        "tags": [
+            "crafting",
+            "early-game"
+        ]
+    },
+    {
+        "id": "1406cfab-b525-4102-b1d9-8f4304227b0e",
+        "title": "Make your first wooden pickaxe",
+        "how_to_complete": "- Craft sticks from planks (2 planks vertically).\n- Use 3 planks and 2 sticks on a crafting table to craft a wooden pickaxe.",
+        "why_it_matters": "- Allows mining stone and coal so you can progress to stone tools.",
+        "tags": [
+            "tools",
+            "progression"
+        ]
+    },
+    {
+        "id": "e41c0333-a3f5-4904-8ea6-661739a0db48",
+        "title": "Mine stone and upgrade to stone tools",
+        "how_to_complete": "- Use wooden pickaxe to collect cobblestone from stone blocks.\n- Craft stone pickaxe, shovel, axe and sword from cobblestone and sticks.",
+        "why_it_matters": "- Stone tools are more durable and unlock access to iron ore.",
+        "tags": [
+            "tools",
+            "progression"
+        ]
+    },
+    {
+        "id": "6c0926b3-43d9-4296-b4cb-c8f00802e82a",
+        "title": "Craft a furnace and smelt something",
+        "how_to_complete": "- Collect 8 cobblestone and arrange into a furnace on the crafting table.\n- Add fuel and place ore/food to smelt.",
+        "why_it_matters": "- Smelting converts ores into usable ingots and cooks food for better hunger restoration.",
+        "tags": [
+            "utilities",
+            "crafting"
+        ]
+    },
+    {
+        "id": "9fd46cb0-f9fe-4a00-b0cd-cf52030cc104",
+        "title": "Hunt sheep and craft a bed",
+        "how_to_complete": "- Kill sheep to get wool or shear them with shears for more wool.\n- Combine 3 wool + 3 planks to craft a bed.",
+        "why_it_matters": "- Beds let you skip night and set a respawn point.",
+        "tags": [
+            "survival",
+            "crafting"
+        ]
+    },
+    {
+        "id": "60fda937-44f1-46e6-a76a-2d2f4c91aea6",
+        "title": "Cook a piece of meat",
+        "how_to_complete": "- Place raw meat in a furnace with fuel to cook it.\n- Eat cooked meat to restore more hunger and saturation.",
+        "why_it_matters": "- Cooked food restores more hunger and reduces risk of starvation during exploration.",
+        "tags": [
+            "cooking",
+            "survival"
+        ]
+    },
+    {
+        "id": "d9746006-cd05-4d7f-a0e0-7d6e4dbc0bb9",
+        "title": "Build a shelter before night",
+        "how_to_complete": "- Use dirt/wood/stone to create a closed space with a door and torches.\n- Ensure shelter has at least one exit and some storage.",
+        "why_it_matters": "- Reduces exposure to hostile mobs and protects items while you sleep.",
+        "tags": [
+            "base",
+            "survival"
+        ]
+    },
+    {
+        "id": "72e0614c-8497-43a2-aaf0-c54e8aabdce9",
+        "title": "Craft torches to light your base",
+        "how_to_complete": "- Mine coal or craft charcoal from logs in a furnace.\n- Combine coal/charcoal with sticks to make torches.",
+        "why_it_matters": "- Light prevents hostile mob spawns and lets you explore caves safely.",
+        "tags": [
+            "utilities",
+            "safety"
+        ]
+    },
+    {
+        "id": "680ff7ba-bca2-41f2-a8d5-6b5268f82116",
+        "title": "Obtain string",
+        "how_to_complete": "- Kill spiders at night or in caves to get string.\n- Break cobwebs with a sword or shears in mineshafts to collect string.",
+        "why_it_matters": "- String crafts bows, fishing rods and can be converted into wool with 4 string = 1 wool.",
+        "tags": [
+            "combat",
+            "gathering"
+        ]
+    },
+    {
+        "id": "46a1e7d8-a4e6-437b-bf50-c26bc908e1e7",
+        "title": "Craft a bow or fishing rod",
+        "how_to_complete": "- Use sticks and string to craft a bow (3 sticks + 3 string) or a fishing rod (3 sticks + 2 string).\n- Repair or enchant later for efficiency.",
+        "why_it_matters": "- Bow provides ranged combat options. Rod supplies food and rare items.",
+        "tags": [
+            "combat",
+            "utility"
+        ]
+    },
+    {
+        "id": "26d95ce5-95d7-4f3b-9b53-6ef46655c5cf",
+        "title": "Catch a fish",
+        "how_to_complete": "- Craft a fishing rod and right-click water until bobber dips; reel in the catch.\n- Use Luck of the Sea enchantments later to improve loot.",
+        "why_it_matters": "- Fishing yields food, enchanted books, and treasure items like saddles.",
+        "tags": [
+            "fishing",
+            "food"
+        ]
+    },
+    {
+        "id": "77d0279e-c34c-495e-9acc-d175b00b2823",
+        "title": "Obtain leather",
+        "how_to_complete": "- Kill cows, mooshrooms, or rideable horses to obtain leather.\n- Leather can be found in some chests in structures.",
+        "why_it_matters": "- Leather crafts armor, books, item frames and is useful for early protection.",
+        "tags": [
+            "gathering",
+            "crafting"
+        ]
+    },
+    {
+        "id": "091818f5-b514-476e-9ebf-cc6c15ab9cc7",
+        "title": "Craft a piece of leather armor",
+        "how_to_complete": "- Use leather and the crafting table to make helmet/chestplate/leggings/boots.\n- Prioritize chestplate for max early protection.",
+        "why_it_matters": "- Provides early damage reduction and increases survivability.",
+        "tags": [
+            "armor",
+            "survival"
+        ]
+    },
+    {
+        "id": "785eda50-4e79-4b0d-8e04-b1e1a89dc26c",
+        "title": "Mine coal and stockpile fuel",
+        "how_to_complete": "- Mine coal ore with a pickaxe. If no coal, make charcoal by smelting logs.\n- Store coal/charcoal for torches and smelting.",
+        "why_it_matters": "- Fuel allows long smelting sessions and sustained exploration in caves.",
+        "tags": [
+            "mining",
+            "utilities"
+        ]
+    },
+    {
+        "id": "57dfdae7-097e-47bc-8bf6-266769660ed1",
+        "title": "Smelt iron ore into ingots",
+        "how_to_complete": "- Mine iron ore with a stone pickaxe or better.\n- Smelt ores in a furnace to get iron ingots.",
+        "why_it_matters": "- Iron unlocks tools, armor, buckets and many essential utility items.",
+        "tags": [
+            "progression",
+            "crafting"
+        ]
+    },
+    {
+        "id": "cd4ad617-6308-4461-8c02-806ecdc89fd1",
+        "title": "Craft a shield",
+        "how_to_complete": "- Use 6 planks + 1 iron ingot in crafting grid to craft a shield.\n- Hold right-click to block incoming attacks.",
+        "why_it_matters": "- Shields block melee and projectile damage and prevent knockback in many cases.",
+        "tags": [
+            "combat",
+            "defense"
+        ]
+    },
+    {
+        "id": "82a147d2-4a91-4f44-bbfa-626ce46bbaa4",
+        "title": "Craft an iron pickaxe",
+        "how_to_complete": "- Use 3 iron ingots and 2 sticks at a crafting table to craft an iron pickaxe.\n- Use for faster mining and to mine gold/diamond.",
+        "why_it_matters": "- Required to mine many mid-game ores and speeds up resource gathering.",
+        "tags": [
+            "tools",
+            "progression"
+        ]
+    },
+    {
+        "id": "c1a9aa49-7e02-491d-a019-bd8bc643d097",
+        "title": "Wear at least one piece of iron armor",
+        "how_to_complete": "- Craft iron armor pieces and equip them in the armor slots.\n- Combine with shield for better survivability.",
+        "why_it_matters": "- Iron armor greatly reduces damage from mobs and environmental hazards.",
+        "tags": [
+            "armor",
+            "survival"
+        ]
+    },
+    {
+        "id": "23230a0b-25d2-4b2f-b2ee-4f98ecb6d931",
+        "title": "Collect feathers from chickens",
+        "how_to_complete": "- Kill chickens to get feathers or set up a small chicken farm to collect eggs and feathers over time.",
+        "why_it_matters": "- Feathers craft arrows when paired with flint and sticks.",
+        "tags": [
+            "farming",
+            "crafting"
+        ]
+    },
+    {
+        "id": "6f63d455-c991-4fa9-b04a-ca049b1c8d7c",
+        "title": "Craft arrows",
+        "how_to_complete": "- Combine flint + stick + feather to craft arrows (4 per recipe).\n- Keep arrows stocked for bow combat.",
+        "why_it_matters": "- Arrows are required for ranged combat and for destroying End crystals at a distance.",
+        "tags": [
+            "combat",
+            "ammunition"
+        ]
+    },
+    {
+        "id": "dbb491a8-1401-49fe-9139-15b734cf84eb",
+        "title": "Find and loot a chest in a generated structure",
+        "how_to_complete": "- Explore for dungeons, mineshafts, temples, shipwrecks or ruins and open chests you find.\n- Bring torches and a weapon as structures can be mob-heavy.",
+        "why_it_matters": "- Loot provides materials, enchanted items, and early-game boosts.",
+        "tags": [
+            "exploration",
+            "loot"
+        ]
+    },
+    {
+        "id": "43f59716-95d0-4182-9ab8-b1409eb1a9eb",
+        "title": "Craft a bucket and collect water",
+        "how_to_complete": "- Smelt iron and craft a bucket using 3 iron ingots.\n- Right-click to collect water or lava as needed.",
+        "why_it_matters": "- Buckets enable mob farms, obsidian creation, and easy water sources for farms.",
+        "tags": [
+            "utilities",
+            "crafting"
+        ]
+    },
+    {
+        "id": "29e868f6-bdb7-4d73-8b4c-b66ba7a2dcd4",
+        "title": "Make a simple wheat farm",
+        "how_to_complete": "- Till dirt with hoe, plant wheat seeds, and water or place nearby water source.\n- Harvest and replant to maintain supply.",
+        "why_it_matters": "- Provides renewable food and breeding materials for animals.",
+        "tags": [
+            "farming",
+            "sustainability"
+        ]
+    },
+    {
+        "id": "b2270e58-a061-4977-869a-516a224d3ec3",
+        "title": "Bake bread",
+        "how_to_complete": "- Craft bread from 3 wheat in a crafting table or furnace-bake alternate recipes as needed.",
+        "why_it_matters": "- Bread is a reliable, stackable food source that restores hunger.",
+        "tags": [
+            "cooking",
+            "food"
+        ]
+    },
+    {
+        "id": "434d4f33-1356-4390-96a5-4791128153d4",
+        "title": "Breed two cows",
+        "how_to_complete": "- Plant wheat and feed two adult cows to prompt breeding.\n- Collect the calf after breeding.",
+        "why_it_matters": "- Provides renewable beef and leather. Useful for long-term food security.",
+        "tags": [
+            "breeding",
+            "farming"
+        ]
+    },
+    {
+        "id": "ee7ac82a-219c-4f6b-aa25-5fabbcc8f5e5",
+        "title": "Collect an egg from a chicken",
+        "how_to_complete": "- Locate chickens and collect eggs passively or breed chickens for more eggs.\n- Use eggs for recipes and throwing can spawn chicks.",
+        "why_it_matters": "- Eggs are used in cake recipes and can be used to multiply chickens.",
+        "tags": [
+            "farming",
+            "food"
+        ]
+    },
+    {
+        "id": "3dba5d71-4ee7-46b4-a6f0-2096d44dae69",
+        "title": "Craft a cake",
+        "how_to_complete": "- Gather milk from cows, wheat, eggs and sugar to craft a cake on a crafting table.\n- Place cake and right-click to eat slices.",
+        "why_it_matters": "- Cake is a shareable food item useful for parties or healing without spoiling stackable inventories.",
+        "tags": [
+            "cooking",
+            "crafting"
+        ]
+    },
+    {
+        "id": "2c0068bf-b593-4e21-a84e-9f0084090fe1",
+        "title": "Shear a sheep for wool",
+        "how_to_complete": "- Craft shears from 2 iron ingots and right-click a sheep to shear it for wool.\n- Shearing is non-lethal and sheep will regrow wool after eating grass.",
+        "why_it_matters": "- Efficient way to collect wool for beds and decoration without killing sheep.",
+        "tags": [
+            "gathering",
+            "utility"
+        ]
+    },
+    {
+        "id": "cd52571d-b3c0-46f8-a291-5301c8ea6808",
+        "title": "Collect honey from a beehive",
+        "how_to_complete": "- Locate beehive/hive and use glass bottles when hive is full of honey.\n- Use campfire under hive to pacify bees before harvesting.",
+        "why_it_matters": "- Honey restores hunger and can be used to craft honey blocks and sugar alternatives.",
+        "tags": [
+            "farming",
+            "gathering"
+        ]
+    },
+    {
+        "id": "c99b6284-fb42-4605-90ab-5aa7969abd4e",
+        "title": "Tame a wolf",
+        "how_to_complete": "- Find wolves in taiga/forest and feed them bones to tame.\n- Right-click to sit/stand and equip with collars using dyes.",
+        "why_it_matters": "- Tamed wolves help in combat and can serve as early companions and mob deterrents.",
+        "tags": [
+            "taming",
+            "combat"
+        ]
+    },
+    {
+        "id": "726c18f3-f47d-4a60-80ea-e5e223f15f31",
+        "title": "Find sugarcane and craft paper",
+        "how_to_complete": "- Collect sugarcane along water edges and craft 3 sugarcane into 3 paper.\n- Use paper for maps, books and trading.",
+        "why_it_matters": "- Paper enables maps, books for enchanting and useful trades with villagers.",
+        "tags": [
+            "gathering",
+            "utility"
+        ]
+    },
+    {
+        "id": "83b57282-ac14-4bbc-8186-29e0507cc5ef",
+        "title": "Craft a map",
+        "how_to_complete": "- Use paper and a compass (or extend an empty map on a table) to create and fill a map by exploring.\n- Right-click to start tracking explored area.",
+        "why_it_matters": "- Maps help navigate and record explored regions for planning and return trips.",
+        "tags": [
+            "exploration",
+            "navigation"
+        ]
+    },
+    {
+        "id": "ff9e34e1-2456-4fe3-a966-da0738550bb5",
+        "title": "Explore until you find a village",
+        "how_to_complete": "- Use maps or walk across plains, savanna, taiga and desert biomes to locate villages.\n- Listen for villager sounds and look for clustered structures.",
+        "why_it_matters": "- Villages provide trading, beds, and resources for early economy building.",
+        "tags": [
+            "exploration",
+            "trading"
+        ]
+    },
+    {
+        "id": "b7585065-1e54-450b-89bd-c11ec50a74bb",
+        "title": "Trade once with a villager",
+        "how_to_complete": "- Find a villager and interact; complete any available basic trade such as emerald for wheat.\n- Protect villages to keep trades available.",
+        "why_it_matters": "- Trading yields emeralds, tools, books and unlocks specialized professions.",
+        "tags": [
+            "economy",
+            "trading"
+        ]
+    },
+    {
+        "id": "eadcd4d6-e50e-4b8b-96f7-e1d9e80376fc",
+        "title": "Defend yourself against hostile mobs at night",
+        "how_to_complete": "- Practice blocking, strafing and using torches to control spawn areas.\n- Use shield and basic armor to survive waves of zombies, skeletons and creepers.",
+        "why_it_matters": "- Improves combat skill and prevents losing gear and progress from deaths.",
+        "tags": [
+            "combat",
+            "survival"
+        ]
+    },
+    {
+        "id": "0673edd2-6a1e-4d9f-b6a6-c6bf16035ed0",
+        "title": "Obtain gunpowder from a creeper",
+        "how_to_complete": "- Kill creepers from a safe distance or use bow to avoid explosion.\n- Charged creeper kills drop mob heads; standard creeper drops gunpowder.",
+        "why_it_matters": "- Gunpowder is required to craft TNT, fireworks and fireworks for Elytra use.",
+        "tags": [
+            "combat",
+            "resources"
+        ]
+    },
+    {
+        "id": "b77f32b4-389f-4c46-8acf-8a1dc46578b8",
+        "title": "Craft TNT",
+        "how_to_complete": "- Combine sand and gunpowder in crafting grid to make TNT.\n- Use flint and steel or redstone to ignite safely from distance.",
+        "why_it_matters": "- TNT used for controlled mining, traps, and large construction demolition.",
+        "tags": [
+            "engineering",
+            "utility"
+        ]
+    },
+    {
+        "id": "19274eb7-efa1-4ed3-852a-9ded829023de",
+        "title": "Mine redstone ore",
+        "how_to_complete": "- Mine redstone at lower Y-levels using iron pickaxe or better.\n- Use caution in lava-prone areas and bring water bucket.",
+        "why_it_matters": "- Redstone powers automation and logic circuits for complex builds.",
+        "tags": [
+            "mining",
+            "redstone"
+        ]
+    },
+    {
+        "id": "4f2b1c04-fdfd-4ccd-9db3-114900239114",
+        "title": "Craft a compass",
+        "how_to_complete": "- Craft compass with 4 iron ingots and 1 redstone at center.\n- Compass points to world spawn; useful for orientation.",
+        "why_it_matters": "- Compass helps re-locate spawn point and navigate to your base.",
+        "tags": [
+            "navigation",
+            "utility"
+        ]
+    },
+    {
+        "id": "06f74778-89d7-4715-915f-5e624d70aa31",
+        "title": "Mine lapis lazuli",
+        "how_to_complete": "- Mine lapis ore with iron pickaxe or better.\n- Collect lapis for enchanting and dyes.",
+        "why_it_matters": "- Required to enchant items and craft blue dyes for decoration.",
+        "tags": [
+            "mining",
+            "enchanting"
+        ]
+    },
+    {
+        "id": "3d0188d2-9d0c-49a6-8cc3-bd7c14f1c385",
+        "title": "Craft and place an enchanting table",
+        "how_to_complete": "- Collect obsidian, diamonds and craft a table; place with bookshelf ring for full effect.\n- Use lapis and XP levels to enchant items.",
+        "why_it_matters": "- Enchanting boosts tools and armor performance and unlocks powerful abilities.",
+        "tags": [
+            "enchanting",
+            "progression"
+        ]
+    },
+    {
+        "id": "351abeeb-266c-491e-830e-7bf0f62f41d7",
+        "title": "Enchant an item",
+        "how_to_complete": "- Gain XP through mining or mob farms, then place item in enchanting table with lapis.\n- Consider bookshelf count and enchantment choice.",
+        "why_it_matters": "- Enchants like Efficiency, Fortune and Unbreaking drastically increase efficiency.",
+        "tags": [
+            "enchanting",
+            "optimization"
+        ]
+    },
+    {
+        "id": "db09c275-1771-4751-b70c-f1a6aed14381",
+        "title": "Collect gold ingots",
+        "how_to_complete": "- Mine gold ore or obtain from nether bartering and chests.\n- Smelt raw gold to ingots if necessary.",
+        "why_it_matters": "- Gold useful for bartering with piglins and crafting certain items like powered rails.",
+        "tags": [
+            "mining",
+            "resources"
+        ]
+    },
+    {
+        "id": "65927b8f-c996-404c-945a-3d6202134361",
+        "title": "Craft golden apples",
+        "how_to_complete": "- Combine apples with gold ingots or use enchanted/golden apple recipes found in chests.\n- Golden apples give strong temporary buffs.",
+        "why_it_matters": "- Useful in boss fights and emergency survivability due to high regen and absorption.",
+        "tags": [
+            "combat",
+            "consumables"
+        ]
+    },
+    {
+        "id": "5c64adfc-852f-4926-a788-298cdfc282c2",
+        "title": "Mine diamonds",
+        "how_to_complete": "- Mine deep underground near diamond-level Y coordinates using an iron or diamond pickaxe.\n- Strip-mining or branch-mining increases yield.",
+        "why_it_matters": "- Diamonds are required for durable tools, armor and to progress to Nether/End.",
+        "tags": [
+            "mining",
+            "progression"
+        ]
+    },
+    {
+        "id": "53b5b6f0-92a6-4f3d-b72b-0d0492e05f2c",
+        "title": "Craft a diamond pickaxe",
+        "how_to_complete": "- Use 3 diamonds and 2 sticks to craft a diamond pickaxe.\n- Use it to mine obsidian and rarer blocks.",
+        "why_it_matters": "- Essential for getting obsidian to build Nether portal and for high-efficiency mining.",
+        "tags": [
+            "tools",
+            "progression"
+        ]
+    },
+    {
+        "id": "56dc7bb3-d56a-4a19-8fd8-07fa1051737d",
+        "title": "Collect obsidian",
+        "how_to_complete": "- Pour water over lava source blocks and mine obsidian with diamond pickaxe.\n- Collect at least 10 obsidian blocks to build a portal.",
+        "why_it_matters": "- Obsidian forms Nether portals and creates blast-resistant builds.",
+        "tags": [
+            "mining",
+            "nether"
+        ]
+    },
+    {
+        "id": "91e8458d-8eb1-4cdc-8ffd-764af546a286",
+        "title": "Build and light a Nether portal",
+        "how_to_complete": "- Arrange obsidian in 4x5 rectangle and use flint & steel to ignite.\n- Optionally use a diamond pickaxe to mine obsidian if needed.",
+        "why_it_matters": "- Nether allows faster travel, nether-specific resources and progression to key bosses.",
+        "tags": [
+            "nether",
+            "progression"
+        ]
+    },
+    {
+        "id": "05be7864-dcd2-4dac-8c89-8901dab95896",
+        "title": "Enter the Nether",
+        "how_to_complete": "- Step through a lit Nether portal into the Nether dimension.\n- Bring fire resistance potions, good armor and blocks.",
+        "why_it_matters": "- Access to Nether-exclusive materials like quartz, netherite ancient debris and bastions.",
+        "tags": [
+            "nether",
+            "exploration"
+        ]
+    },
+    {
+        "id": "88c04a4d-28d0-45e4-a2d4-cab193b53284",
+        "title": "Collect quartz in the Nether",
+        "how_to_complete": "- Mine Nether quartz ore found in Netherrack; bring picks and avoid lava.\n- Quartz drops Nether quartz used for redstone comparators and decoration.",
+        "why_it_matters": "- Quartz is abundant and essential for certain redstone circuits and crafting recipes.",
+        "tags": [
+            "nether",
+            "resources"
+        ]
+    },
+    {
+        "id": "b12e78cb-cf69-438f-9348-061f9e81ce25",
+        "title": "Barter with a piglin",
+        "how_to_complete": "- Throw gold ingots to piglins or open chests near them carefully.\n- Piglins accept gold and drop various nether items.",
+        "why_it_matters": "- Bartering can yield crying obsidian, ender pearls fragments, and other useful loot.",
+        "tags": [
+            "nether",
+            "economy"
+        ]
+    },
+    {
+        "id": "9d7ec3dc-2f87-4aa4-a8e8-146e886d1270",
+        "title": "Locate a Nether fortress",
+        "how_to_complete": "- Explore Nether with eyes peeled for fortress structures made of Nether bricks.\n- Fortresses spawn Blazes and Wither skeletons; bring ranged gear.",
+        "why_it_matters": "- Fortress is source of blaze rods and wither skeleton skulls needed for progression.",
+        "tags": [
+            "nether",
+            "bosses"
+        ]
+    },
+    {
+        "id": "1dc2d9c0-41cc-4e5f-ab2e-39c3f45ce657",
+        "title": "Kill a blaze and obtain blaze rods",
+        "how_to_complete": "- Find blaze mobs in Nether fortress and kill them with ranged attacks or melee if prepared.\n- Blazes drop blaze rods used for brewing.",
+        "why_it_matters": "- Blaze rods craft blaze powder for potion fuel and Eyes of Ender.",
+        "tags": [
+            "nether",
+            "brewing"
+        ]
+    },
+    {
+        "id": "4db901b1-04b3-44a0-82a5-56ac2a8d3043",
+        "title": "Collect nether wart",
+        "how_to_complete": "- Find nether wart in fortress stairwells or bastions and harvest it.\n- Plant in soul sand in your Nether base for a steady supply.",
+        "why_it_matters": "- Nether wart is the base ingredient for most potions.",
+        "tags": [
+            "nether",
+            "brewing"
+        ]
+    },
+    {
+        "id": "63a77daf-ab92-4538-a171-82db6d99c289",
+        "title": "Brew your first potion",
+        "how_to_complete": "- Build brewing stand using blaze rod and cobblestone/stone base as needed.\n- Use nether wart to make awkward potion and add modifiers like sugar or glistering melon.",
+        "why_it_matters": "- Potions grant buffs like fire resistance and healing, making tough environments manageable.",
+        "tags": [
+            "brewing",
+            "utility"
+        ]
+    },
+    {
+        "id": "a056921c-4725-44d7-bc3e-28b044e73d7b",
+        "title": "Craft an Eye of Ender",
+        "how_to_complete": "- Combine blaze powder with ender pearl to craft Eye of Ender.\n- Collect ender pearls by killing Endermen in the Overworld at night or in End.",
+        "why_it_matters": "- Eyes of Ender locate strongholds and activate the End portal.",
+        "tags": [
+            "progression",
+            "exploration"
+        ]
+    },
+    {
+        "id": "6b76a6ef-17a0-461a-ad02-954b4c79b6f9",
+        "title": "Use the Eye of Ender to locate a stronghold",
+        "how_to_complete": "- Throw Eye of Ender and follow its flight; mark coordinates and repeat until it hovers.\n- Dig down carefully at the spot where Eyes descend to find the stronghold.",
+        "why_it_matters": "- Locating the stronghold is required to find the End portal.",
+        "tags": [
+            "exploration",
+            "progression"
+        ]
+    },
+    {
+        "id": "8723b046-0fdc-44e9-8a97-7e60a9e090e7",
+        "title": "Enter the stronghold",
+        "how_to_complete": "- Navigate stronghold corridors to find the portal room with frames containing End portal blocks.\n- Bring torches and ladders to navigate safely.",
+        "why_it_matters": "- Strongholds contain libraries, loot and the End portal to reach the End dimension.",
+        "tags": [
+            "exploration",
+            "loot"
+        ]
+    },
+    {
+        "id": "7b42fb6a-a84f-4617-a5f2-85ead9baa46e",
+        "title": "Place Eyes into the End portal",
+        "how_to_complete": "- Place Eyes of Ender into the empty portal frame blocks until the portal activates.\n- Some frames may already contain Eyes from world generation.",
+        "why_it_matters": "- Activating the portal grants access to the End dimension and the Dragon fight.",
+        "tags": [
+            "progression",
+            "boss"
+        ]
+    },
+    {
+        "id": "52486945-b14d-4e6b-92b3-111a6e301b1d",
+        "title": "Enter the End",
+        "how_to_complete": "- Jump into the activated End portal to travel to the End dimension.\n- Prepare for endermen and dragon fights; bring blocks and ranged gear.",
+        "why_it_matters": "- End is necessary to fight the Ender Dragon and access end cities.",
+        "tags": [
+            "boss",
+            "exploration"
+        ]
+    },
+    {
+        "id": "4485f59d-e9b4-48c0-b704-2fe38578a157",
+        "title": "Destroy an end crystal",
+        "how_to_complete": "- Use a bow to shoot crystals on obsidian pillars or climb and break them up close.\n- Take care of other endermen while removing crystals.",
+        "why_it_matters": "- End crystals heal the Ender Dragon; removing them is required to defeat the dragon.",
+        "tags": [
+            "combat",
+            "boss"
+        ]
+    },
+    {
+        "id": "4285a5a7-e9e8-4cd6-962e-92f5a2c0b001",
+        "title": "Defeat the Ender Dragon",
+        "how_to_complete": "- Focus on destroying crystals, then damage the dragon while avoiding breath attacks.\n- Use beds or explode TNT in controlled ways for high damage if skilled.",
+        "why_it_matters": "- Defeating the dragon completes the primary game boss milestone and unlocks End exploration.",
+        "tags": [
+            "boss",
+            "milestone"
+        ]
+    },
+    {
+        "id": "898ea1b8-2e6f-46c1-a1e5-18fee6e6a758",
+        "title": "Collect the dragon egg",
+        "how_to_complete": "- After the dragon dies, activate the pedestal trick: place a torch under the egg and break the block next to it so it drops as an item.\n- Use piston or torch trick to collect the egg safely.",
+        "why_it_matters": "- Dragon egg is a trophy item that marks completion of the dragon fight.",
+        "tags": [
+            "trophy",
+            "milestone"
+        ]
+    },
+    {
+        "id": "6de599ec-0a0e-4965-b677-75efce46ba3a",
+        "title": "Enter an End gateway",
+        "how_to_complete": "- Use the portal that spawns after dragon death or throw an ender pearl through the gateway to reach outer islands.\n- Build a bridge if necessary to reach distant islands.",
+        "why_it_matters": "- Outer End islands contain End cities with Elytra and other rare loot.",
+        "tags": [
+            "exploration",
+            "end"
+        ]
+    },
+    {
+        "id": "c3343263-10b4-4f17-8d8e-4e05c5aaffa5",
+        "title": "Find an End City",
+        "how_to_complete": "- Search outer islands for tall purpur structures with bridges and ships.\n- Listen for shulkers and watch for endstone terrain.",
+        "why_it_matters": "- End cities hold Elytra, shulker boxes and high-tier loot.",
+        "tags": [
+            "loot",
+            "end"
+        ]
+    },
+    {
+        "id": "d5a77c57-2456-415e-86bd-fc89f2cbf218",
+        "title": "Obtain shulker shells",
+        "how_to_complete": "- Kill shulkers found in End cities; collect their drops which include shulker shells.\n- Use shells to craft shulker boxes for portable storage.",
+        "why_it_matters": "- Shulker boxes provide portable item storage and organization, crucial for big expeditions.",
+        "tags": [
+            "loot",
+            "utility"
+        ]
+    },
+    {
+        "id": "90888690-221d-4c91-aa8d-da6fe14fb817",
+        "title": "Craft a shulker box",
+        "how_to_complete": "- Combine shulker shell with chest to make a shulker box.\n- Color and label shulker boxes for inventory organization.",
+        "why_it_matters": "- Greatly increases carry capacity and simplifies big-building projects.",
+        "tags": [
+            "storage",
+            "utility"
+        ]
+    },
+    {
+        "id": "db77e599-08d8-4436-a050-2a89479c4c19",
+        "title": "Find an Elytra in an End Ship",
+        "how_to_complete": "- Search End cities for ships attached to the city; Elytra are in item frames in ships.\n- Watch for shulker spawns and bring rockets or blocks for traversal.",
+        "why_it_matters": "- Elytra enable gliding and aerial travel when combined with fireworks.",
+        "tags": [
+            "exploration",
+            "mobility"
+        ]
+    },
+    {
+        "id": "344062d6-5f5a-4d90-85d9-78eef8800865",
+        "title": "Use fireworks to fly",
+        "how_to_complete": "- Craft firework rockets and use them while wearing Elytra to boost flight.\n- Adjust rocket duration for comfortable flight time.",
+        "why_it_matters": "- Fireworks + Elytra allow fast exploration and impressive builds from the air.",
+        "tags": [
+            "mobility",
+            "utility"
+        ]
+    },
+    {
+        "id": "d5e5d601-a2a7-4af0-9d12-148febf36eca",
+        "title": "Return home and display the dragon egg",
+        "how_to_complete": "- Transport the dragon egg back to your base using piston or teleport methods.\n- Create a pedestal or trophy room for display.",
+        "why_it_matters": "- Shows progression and marks achievement; encourages trophy room building.",
+        "tags": [
+            "trophy",
+            "base"
+        ]
+    },
+    {
+        "id": "95744c8f-2f4f-43fc-b29a-11fb33e03f44",
+        "title": "Summon the Wither by obtaining wither skeleton skulls",
+        "how_to_complete": "- Farm wither skeletons in Nether fortresses to collect skulls (rare drop).\n- Collect 3 skulls and 4 soul sand to build the Wither.",
+        "why_it_matters": "- Summoning the Wither lets you obtain the Nether star used for beacons.",
+        "tags": [
+            "boss",
+            "nether"
+        ]
+    },
+    {
+        "id": "3ff5ee03-4d0a-4762-8264-f46c9e54502a",
+        "title": "Defeat the Wither",
+        "how_to_complete": "- Prepare a secure arena and high-damage weapons or utilize ranged attacks to avoid explosion.\n- Use healing potions and beacons if available.",
+        "why_it_matters": "- Defeating the Wither yields a Nether star to craft a beacon and grants XP and bragging rights.",
+        "tags": [
+            "boss",
+            "milestone"
+        ]
+    },
+    {
+        "id": "5c5a12b1-e1e6-4b7c-8aa5-a8c05e000a95",
+        "title": "Craft a beacon with the Nether star",
+        "how_to_complete": "- Combine Nether star, obsidian and glass to craft a beacon.\n- Build pyramid base and power it with mineral blocks to unlock effects.",
+        "why_it_matters": "- Beacons provide speed, haste, regeneration and other buffs useful for large builds and farms.",
+        "tags": [
+            "utility",
+            "late-game"
+        ]
+    },
+    {
+        "id": "e180c349-962f-45d1-960c-8e4c22671d01",
+        "title": "Build a large farm or automated contraption",
+        "how_to_complete": "- Design and construct automated farms using redstone, water flows, hoppers and villagers or mobs.\n- Test and iterate for efficiency.",
+        "why_it_matters": "- Automation reduces manual labor and ensures steady resource flows for late-game projects.",
+        "tags": [
+            "automation",
+            "redstone"
+        ]
+    },
+    {
+        "id": "bc144763-7065-4c40-8faf-3dbe9c71f0dc",
+        "title": "Fully enchant a diamond or netherite toolset",
+        "how_to_complete": "- Gather XP and bookshelves then enchant gear to optimal levels.\n- Use an anvil to combine enchanted books and apply mending and unbreaking.",
+        "why_it_matters": "- Fully enchanted gear maximizes efficiency and durability for all tasks.",
+        "tags": [
+            "enchanting",
+            "optimization"
+        ]
+    },
+    {
+        "id": "3dd59f02-d396-4154-92d7-54702fea58bb",
+        "title": "Construct a permanent base or monument",
+        "how_to_complete": "- Choose a location and build a multi-room base with storage, farms and defensive features.\n- Design aesthetics and functionality for long-term play.",
+        "why_it_matters": "- A permanent base centralizes operations and showcases player creativity.",
+        "tags": [
+            "building",
+            "base"
+        ]
+    },
+    {
+        "id": "ac926580-075a-41ed-8055-46d4e8861e50",
+        "title": "Max out a beacon pyramid",
+        "how_to_complete": "- Collect required mineral blocks (iron, gold, emerald, diamond or netherite) and build a 4-level pyramid.\n- Activate max-level beacon effects.",
+        "why_it_matters": "- Max beacon provides top-tier buffs for large-area projects and combat.",
+        "tags": [
+            "utility",
+            "late-game"
+        ]
+    },
+    {
+        "id": "f9c481bf-412b-4f1e-b446-22b952905bd8",
+        "title": "Collect every crop type in the game",
+        "how_to_complete": "- Locate and plant all crops: wheat, carrots, potatoes, beetroot, netherwart, cocoa and more.\n- Set up separate garden areas for each crop.",
+        "why_it_matters": "- Collecting all crops yields self-sufficiency and decorative farm areas.",
+        "tags": [
+            "collection",
+            "farming"
+        ]
+    },
+    {
+        "id": "3a8bed52-2d3e-4569-9a01-4239a2789c7e",
+        "title": "Breed every passive animal type",
+        "how_to_complete": "- Find and breed cows, pigs, chickens, sheep, horses, llamas, turtles, foxes (if possible) and more.\n- Use specific foods to prompt breeding.",
+        "why_it_matters": "- Shows mastery of animal husbandry and guarantees access to all animal resources.",
+        "tags": [
+            "breeding",
+            "collection"
+        ]
+    },
+    {
+        "id": "f5a58433-6904-429e-97b9-4e6526ade6d6",
+        "title": "Collect every music disc",
+        "how_to_complete": "- Find discs in dungeon chests, creative shops or get a creeper to be killed by a skeleton to drop a disc.\n- Trade or loot rare discs from generated structures.",
+        "why_it_matters": "- Music discs are rare collectibles and complete any in-game museum or trophy room.",
+        "tags": [
+            "collection",
+            "loot"
+        ]
+    },
+    {
+        "id": "6b9fb62e-09a9-425e-a824-14f03151498b",
+        "title": "Craft full netherite armor",
+        "how_to_complete": "- Upgrade diamond armor to netherite using smithing table and netherite ingots.\n- Collect ancient debris and craft netherite ingots.",
+        "why_it_matters": "- Netherite gives highest durability and knockback resistance; top-tier late-game gear.",
+        "tags": [
+            "late-game",
+            "armor"
+        ]
+    },
+    {
+        "id": "c05587c8-68ad-4355-ad35-ed02dea17433",
+        "title": "Defeat the Ender Dragon again",
+        "how_to_complete": "- Return to the End through the portal or create another portal and repeat the fight with improved gear.\n- Use optimized strategy to reduce crystal time.",
+        "why_it_matters": "- Practice or re-fight the dragon to test improved gear, or for achievement hunting.",
+        "tags": [
+            "boss",
+            "challenge"
+        ]
+    },
+    {
+        "id": "1220cf6f-7c92-4499-8c17-34248fd34756",
+        "title": "Explore all major biomes",
+        "how_to_complete": "- Visit mesas, jungles, taigas, deserts, ice spikes, mushroom islands and others.\n- Use maps, Elytra and boats to cover ground efficiently.",
+        "why_it_matters": "- Exploring biomes unlocks rare resources, mob types and building inspiration.",
+        "tags": [
+            "exploration",
+            "collection"
+        ]
+    },
+    {
+        "id": "9b3d1c91-2876-451b-b12f-2ff35ab275cb",
+        "title": "Complete your world museum with rare blocks and trophies",
+        "how_to_complete": "- Collect dragon egg, mob heads, music discs, spawner-based trophies and decorative blocks.\n- Arrange displays and label exhibits with signs.",
+        "why_it_matters": "- A museum documents your world accomplishments and provides a satisfying final project.",
+        "tags": [
+            "collection",
+            "base"
+        ]
+    }
+]

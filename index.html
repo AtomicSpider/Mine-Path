@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Minecraft Quest Expander</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #1b3a2f;
+        color: #f0f0f0;
+        padding: 30px;
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #quest-container {
+        width: 100%;
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .quest {
+        background-color: #2e4a36;
+        border: 2px solid #4b6b4b;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        padding: 15px;
+        width: 100%;
+        max-width: 650px;
+        box-sizing: border-box;
+      }
+
+      .quest-header {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        color: #a0ff70;
+        padding: 8px;
+        border-bottom: 2px solid #4b6b4b;
+      }
+
+      .quest-tags {
+        margin: 12px 0;
+      }
+
+      .quest-tags span {
+        display: inline-block;
+        border-radius: 12px;
+        padding: 4px 10px;
+        margin-right: 6px;
+        font-size: 12px;
+        font-weight: bold;
+        border: 1px solid #fff;
+      }
+
+      /* Example tag colors */
+      .tag-gathering { background-color: #6ab04c; color: #fff; }
+      .tag-early { background-color: #f9ca24; color: #000; }
+      .tag-wood { background-color: #d35400; color: #fff; }
+      .tag-tools { background-color: #2980b9; color: #fff; }
+
+      .quest-content {
+        margin-top: 12px;
+        display: none;
+        padding-top: 10px;
+        border-top: 2px dashed #4b6b4b;
+      }
+
+      .section-title {
+        margin: 10px 0 6px;
+        font-weight: bold;
+        color: #70ffae;
+        font-size: 14px;
+      }
+
+      .quest-content img {
+        max-width: 120px;
+        display: block;
+        margin: 5px 0;
+        border: 2px solid #4b6b4b;
+      }
+
+      ol { padding-left: 25px; }
+      li { margin-bottom: 12px; font-size: 14px; line-height: 1.5; }
+      p { font-size: 14px; line-height: 1.5; }
+
+      .banner {
+        width: 100%;
+        max-width: 900px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        box-shadow: 0 2px 12px #0006;
+        display: block;
+      }
+
+      @media (max-width: 800px) {
+        body {
+          padding: 10px;
+        }
+        #quest-container, .quest {
+          max-width: 98vw;
+          width: 100%;
+        }
+        .quest {
+          padding: 10px;
+        }
+      }
+
+      @media (max-width: 500px) {
+        .quest-header {
+          font-size: 14px;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .section-title {
+          font-size: 13px;
+        }
+        .quest-content img {
+          max-width: 90vw;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="images/banner.jpg" alt="Minecraft Banner" class="banner" />
+    <div id="quest-container"></div>
+
+    <script>
+      // Fetch quests from the JSON file and render them
+      fetch('data/quest.json')
+        .then(response => response.json())
+        .then(quests => {
+          const container = document.getElementById('quest-container');
+          container.innerHTML = '';
+          quests.forEach((quest, idx) => {
+            const questDiv = document.createElement('div');
+            questDiv.className = 'quest';
+            questDiv.innerHTML = `
+              <div class="quest-header" onclick="toggleQuest(this)">
+                <span>${idx + 1}. ${quest.title}</span>
+                <span class="arrow">▼</span>
+              </div>
+              <div class="quest-content">
+                <div class="quest-tags">
+                  ${(quest.tags || []).map(tag => `<span class="tag-${tag.split('-')[0]}">${tag}</span>`).join(' ')}
+                </div>
+                <div>
+                  <div class="section-title">How to Complete</div>
+                  <div class="markdown-content">${marked.parse(quest.how_to_complete)}</div>
+                </div>
+                <div>
+                  <div class="section-title">Why It Matters</div>
+                  <div class="markdown-content">${marked.parse(quest.why_it_matters)}</div>
+                </div>
+              </div>
+            `;
+            container.appendChild(questDiv);
+          });
+        });
+
+      function toggleQuest(header) {
+        const content = header.nextElementSibling;
+        const arrow = header.querySelector('.arrow');
+        if (content.style.display === 'block') {
+          content.style.display = 'none';
+          arrow.textContent = '▼';
+        } else {
+          content.style.display = 'block';
+          arrow.textContent = '▲';
+        }
+      }
+    </script>
+  </body>
+</html>
