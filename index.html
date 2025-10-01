@@ -27,8 +27,8 @@
 
       .quest {
         background-color: #2e4a36;
-        border: 2px solid #4b6b4b;
-        border-radius: 10px;
+        border: 6px solid #4b6b4b;
+        border-radius: 18px;
         margin-bottom: 25px;
         padding: 15px;
         width: 100%;
@@ -43,7 +43,7 @@
         font-size: 16px;
         color: #a0ff70;
         padding: 8px;
-        border-bottom: 2px solid #4b6b4b;
+        /* border-bottom: 2px solid #4b6b4b; */
       }
 
       .quest-tags {
@@ -91,15 +91,68 @@
       li { margin-bottom: 12px; font-size: 14px; line-height: 1.5; }
       p { font-size: 14px; line-height: 1.5; }
 
-      .banner {
+      .banner,
+      #status-bar {
         width: 100%;
         max-width: 900px;
+        box-sizing: border-box;
+      }
+      .banner {
         height: 70px;
         object-fit: cover;
         border-radius: 12px;
         margin-bottom: 30px;
         box-shadow: 0 2px 12px #0006;
         display: block;
+      }
+      #status-bar {
+        margin: 0 auto 18px auto;
+        background: #244c36;
+        color: #a0ff70;
+        font-size: 17px;
+        font-weight: bold;
+        border-radius: 8px;
+        padding: 10px 20px 10px 20px;
+        text-align: left;
+        letter-spacing: 1px;
+        box-shadow: 0 1px 8px #0003;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+      }
+      .coffee-btn {
+        background: #f9ca24;
+        color: #1b3a2f;
+        border: none;
+        border-radius: 6px;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 7px 18px;
+        cursor: pointer;
+        box-shadow: 0 2px 6px #0002;
+        transition: background 0.2s, color 0.2s;
+        text-decoration: none;
+        margin-left: auto;
+      }
+      .coffee-btn:hover {
+        background: #ffe066;
+        color: #d35400;
+      }
+
+      .quest-checkbox {
+        margin-right: 10px;
+        transform: scale(1.3);
+        accent-color: #70ffae;
+        vertical-align: middle;
+      }
+
+      .quest.completed {
+        opacity: 0.5;
+        background: #1e2e23;
+      }
+      .quest-header .quest-title.completed {
+        text-decoration: line-through;
       }
 
       @media (max-width: 800px) {
@@ -132,21 +185,44 @@
   </head>
   <body>
     <img src="images/banner.jpg" alt="Minecraft Banner" class="banner" />
+    <div id="status-bar"></div>
     <div id="quest-container"></div>
 
     <script>
+      // Local storage helpers
+      function getCompletedQuests() {
+        return JSON.parse(localStorage.getItem('completedQuests') || '[]');
+      }
+      function setCompletedQuests(ids) {
+        localStorage.setItem('completedQuests', JSON.stringify(ids));
+      }
+
+      function updateStatusBar(completed, total) {
+        document.getElementById('status-bar').innerHTML = `
+          <span>Completed: ${completed} / ${total}</span>
+          <a class="coffee-btn" href="https://www.buymeacoffee.com/averageadult" target="_blank" rel="noopener">☕ Buy me a coffee</a>
+        `;
+      }
+
       // Fetch quests from the JSON file and render them
       fetch('data/quest.json')
         .then(response => response.json())
         .then(quests => {
           const container = document.getElementById('quest-container');
+          const completedIds = getCompletedQuests();
+          let completedCount = 0;
           container.innerHTML = '';
           quests.forEach((quest, idx) => {
+            const isCompleted = completedIds.includes(quest.id);
+            if (isCompleted) completedCount++;
             const questDiv = document.createElement('div');
-            questDiv.className = 'quest';
+            questDiv.className = 'quest' + (isCompleted ? ' completed' : '');
             questDiv.innerHTML = `
               <div class="quest-header" onclick="toggleQuest(this)">
-                <span>${idx + 1}. ${quest.title}</span>
+                <span class="quest-title${isCompleted ? ' completed' : ''}">
+                  <input type="checkbox" class="quest-checkbox" data-quest-id="${quest.id}" ${isCompleted ? 'checked' : ''} onclick="event.stopPropagation(); toggleQuestCheck(this);" />
+                  ${idx + 1}. ${quest.title}
+                </span>
                 <span class="arrow">▼</span>
               </div>
               <div class="quest-content">
@@ -165,6 +241,7 @@
             `;
             container.appendChild(questDiv);
           });
+          updateStatusBar(completedCount, quests.length);
         });
 
       function toggleQuest(header) {
@@ -177,6 +254,27 @@
           content.style.display = 'block';
           arrow.textContent = '▲';
         }
+      }
+
+      window.toggleQuestCheck = function(checkbox) {
+        const questId = checkbox.getAttribute('data-quest-id');
+        let completedIds = getCompletedQuests();
+        const questDiv = checkbox.closest('.quest');
+        const questTitle = questDiv.querySelector('.quest-title');
+        if (checkbox.checked) {
+          if (!completedIds.includes(questId)) completedIds.push(questId);
+          questDiv.classList.add('completed');
+          questTitle.classList.add('completed');
+        } else {
+          completedIds = completedIds.filter(id => id !== questId);
+          questDiv.classList.remove('completed');
+          questTitle.classList.remove('completed');
+        }
+        setCompletedQuests(completedIds);
+        // Update status bar
+        const total = document.querySelectorAll('.quest-checkbox').length;
+        const completed = completedIds.length;
+        updateStatusBar(completed, total);
       }
     </script>
   </body>
